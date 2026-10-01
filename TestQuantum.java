@@ -52,7 +52,7 @@ public class TestQuantum {
     }
 
     // doesn't work
-    // well, I tried my best and it wasn't good enough.
+    // documentation for the simulation framework was very lackluster
     public static int shorFindPeriod(int a, int N) {
 
         int length = (int) Math.ceil(Math.log(N) / Math.log(2));
