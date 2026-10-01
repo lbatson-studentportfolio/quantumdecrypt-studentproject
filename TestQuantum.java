@@ -28,9 +28,7 @@ import org.redfx.strange.local.SimpleQuantumExecutionEnvironment;
 
 public class TestQuantum {
 
-    // Based on Stephane Beauregard's 2n + 3 qubit quantum circuit except Strange sucks and now I have to hand-write all
-    // of the (reversable) quantum gates myself. god damn it.
-    // I give up
+    // A test attempting to write a circuit based on Stephane Beauregard's 2n + 3 qubit quantum circuit 
     public static int customBeauregardFindPeriod(int a, int N) {
 
         int length = (int) Math.ceil(Math.log(N) / Math.log(2));
