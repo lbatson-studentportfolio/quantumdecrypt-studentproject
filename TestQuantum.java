@@ -120,6 +120,7 @@ public class TestQuantum {
 
     }
 
+    // Johan Vos' implementation of Shor's period finding
     public static int johanFindPeriod(int a, int N) {
 
         // Holds bit length of N using properties of logarithms
@@ -282,12 +283,12 @@ public class TestQuantum {
 
     }
 
-    // Never understood this. Probably better that way.
     public static int oracleExample() {
 
         Program program = new Program(2);
         QuantumExecutionEnvironment simulator = new SimpleQuantumExecutionEnvironment();
 
+        // CNOT
         Complex[][] matrix = {
             {Complex.ONE, Complex.ZERO, Complex.ZERO, Complex.ZERO},
             {Complex.ZERO, Complex.ONE, Complex.ZERO, Complex.ZERO},
