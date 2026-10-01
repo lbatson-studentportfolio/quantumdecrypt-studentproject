@@ -122,8 +122,6 @@ public class TestQuantum {
 
     }
 
-    // spent over 3 months studying quantum computing and my final is somebody else's code.
-    // and it doesn't even work.
     public static int johanFindPeriod(int a, int N) {
 
         // Holds bit length of N using properties of logarithms
